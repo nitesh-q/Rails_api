@@ -58,3 +58,7 @@ class Api::V1::ProductsController < ApplicationController
     params.require(:product).permit([:name,:price,:brand])
   end
 end
+
+
+
+
